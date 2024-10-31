@@ -17,6 +17,7 @@ public class Funny_Words : MonoBehaviour
             int randomIndex = UnityEngine.Random.Range(0, words.Length);
             
             random_words += words[randomIndex] + " " ;
+            last += 1;
         }
 
         Debug.Log(random_words);
